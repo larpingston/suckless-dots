@@ -1,0 +1,9 @@
+exec dbus-run-session sh -c "
+    ~/.fehbg &
+    dwmblocks &
+    dunst &
+    wayvibes wayvibes/soundpacks/eg-oreo & 
+    picom &
+    notify-send 'dwm' 'welcome back'
+    exec dwm
+"
