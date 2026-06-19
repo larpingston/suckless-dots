@@ -47,8 +47,6 @@ bindkey -M vicmd '^e' edit-command-line
 bindkey -M visual '^[[P' vi-delete
 bindkey '^[[P' delete-char
 
-. "$HOME/.nix-profile/etc/profile.d/nix.sh"
-
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
