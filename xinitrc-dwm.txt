@@ -4,6 +4,5 @@ exec dbus-run-session sh -c "
     dunst &
     wayvibes wayvibes/soundpacks/eg-oreo & 
     picom &
-    notify-send 'dwm' 'welcome back'
     exec dwm
 "
